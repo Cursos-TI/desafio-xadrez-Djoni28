@@ -50,7 +50,7 @@ int main() {
     printf("Qual o movimento final que o cavalo deve fazer? ");
     scanf("%s", movimentoCavalo2);
 
-    for (int cav2 = 1; cav2<=1; cav2++) { // Esse loop não é necessário pois repete apenas uma vez, feito para estudo de loops alinhados
+    for (int cav2 = 1, cav1; cav2<=1; cav2++) { // Esse loop não é necessário pois repete apenas uma vez, feito para estudo de loops alinhados
 
         for (cav1 = 1; cav1 <= 2 && cav1 != 99; cav1++) { // Loop interno
             printf("Cavalo para %s\n", movimentoCavalo1);
